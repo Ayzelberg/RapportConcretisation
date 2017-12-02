@@ -1,0 +1,133 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}    
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{listings,xcolor}
+\usepackage{appendix}
+\usepackage{adjustbox}
+
+%Géométrie des pages
+\usepackage{geometry}
+\geometry{hmargin=2.5cm,vmargin=2.5cm}
+
+%Définition des couleurs pour le code xml
+\definecolor{colorxmlnode}{rgb}{0.2, 0.2, 0.2} 
+\definecolor{maroon}{RGB}{178 34 34}
+
+%Profondeur des compteurs et de la tableofcontents
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{3}
+
+%ltset par défaut
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+%lst xml
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily,
+  morestring=[s]{"}{"},
+  morecomment=[s]{?}{?},
+  morecomment=[s]{!--}{--},
+  commentstyle=\color{darkgreen},
+  moredelim=[s][\color{black}]{>}{<},
+  moredelim=[s][\color{red}]{\ }{=},
+  stringstyle=\color{blue},
+  identifierstyle=\color{maroon}
+}
+
+%Taille des titres
+\titleformat*{\section}{\LARGE\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+
+\addto\captionsfrench{%
+  \renewcommand\appendixname{Annexe}
+  \renewcommand\appendixpagename{Annexes}
+}
+
+
+\title{% 
+		Développement d'un couple d'applications bureau et mobile\\ \large
+		Génération et lecture de QR Codes pour l'institut Montéclair}
+\author{David \bsc{Dembele}\\ Alassane \bsc{Diop}\\
+		Jules \bsc{Leguy}\\ Rahmatouwalet \bsc{Mohamedoun}}
+\date{Décembre 2017}
+
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Introduction}
+
+	\section{Contexte}
+		\input{Introduction/contexte.tex}
+	
+	\section{Cahier des charges}
+		\input{Introduction/cahierDesCharges.tex}
+
+\chapter{Organisation}
+
+	\section{Répartition des tâches}
+		\input{Organisation/repartitionDesTaches.tex}
+	
+	\section{Planning}
+		\input{Organisation/planning.tex}
+
+\chapter{Réalisation}
+
+	\section{Application de bureau}
+
+		\subsection{Architecture}
+			\input{Realisation/AppliBureau/architecture.tex}
+
+		\subsection{Modèle}
+			\input{Realisation/AppliBureau/modele.tex}
+
+		\subsection{Vue}
+			\input{Realisation/AppliBureau/vue.tex}
+				
+		\subsection{Contrôleur}
+			\input{Realisation/AppliBureau/controleur.tex}
+
+	\section{Application mobile}
+		
+		\subsection{Application existante}
+			\input{Realisation/AppliMobile/appliExistante.tex}
+		
+		\subsection{Adaptation aux nouveaux QR Codes}
+			\input{Realisation/AppliMobile/adaptation.tex}
+		
+		\subsection{Téléchargement Drive}
+			\input{Realisation/AppliMobile/telechargementDrive.tex}
+			
+	\section{Représentation des données}
+		\input{Realisation/representationDonnees.tex}
+		
+	\section{Contraintes et choix}
+	
+		\input{Realisation/contraintesChoix.tex}
+		
+
+
+\chapter{Conclusion}
+	\input{Conclusion/conclusion.tex}
+
+*
+
+
+
+
+
+\end{document}
