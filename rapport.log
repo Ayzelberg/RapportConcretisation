@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  2 DEC 2017 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  2 DEC 2017 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,37 +412,25 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
-\ttl@box=\box27
-\beforetitleunit=\skip49
-\aftertitleunit=\skip50
-\ttl@plus=\dimen110
-\ttl@minus=\dimen111
-\ttl@toksa=\toks19
-\titlewidth=\dimen112
-\titlewidthlast=\dimen113
-\titlewidthfirst=\dimen114
-)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count94
-\lst@gtempboxa=\box28
-\lst@token=\toks20
+\lst@gtempboxa=\box27
+\lst@token=\toks19
 \lst@length=\count95
-\lst@currlwidth=\dimen115
+\lst@currlwidth=\dimen110
 \lst@column=\count96
 \lst@pos=\count97
-\lst@lostspace=\dimen116
-\lst@width=\dimen117
+\lst@lostspace=\dimen111
+\lst@width=\dimen112
 \lst@newlines=\count98
 \lst@lineno=\count99
-\lst@maxwidth=\dimen118
+\lst@maxwidth=\dimen113
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count100
 \lst@skipnumbers=\count101
-\lst@framebox=\box29
+\lst@framebox=\box28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -480,8 +468,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
 \XKV@depth=\count105
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -495,21 +483,21 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box30
+\collectedbox=\box29
 )
-\tc@llx=\dimen119
-\tc@lly=\dimen120
-\tc@urx=\dimen121
-\tc@ury=\dimen122
+\tc@llx=\dimen114
+\tc@lly=\dimen115
+\tc@urx=\dimen116
+\tc@ury=\dimen117
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen123
-\adjbox@Height=\dimen124
-\adjbox@Depth=\dimen125
-\adjbox@Totalheight=\dimen126
+\adjbox@Width=\dimen118
+\adjbox@Height=\dimen119
+\adjbox@Depth=\dimen120
+\adjbox@Totalheight=\dimen121
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
@@ -517,11 +505,17 @@ Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box31
+\@vwid@box=\box30
 \sift@deathcycles=\count107
-\@vwid@loff=\dimen127
-\@vwid@roff=\dimen128
+\@vwid@loff=\dimen122
+\@vwid@roff=\dimen123
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip49
+\thanksmargin=\skip50
+\droptitle=\skip51
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -539,46 +533,46 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count108
 \Gm@cntv=\count109
 \c@Gm@tempcnt=\count110
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
-\Gm@dimlist=\toks23
+\Gm@bindingoffset=\dimen124
+\Gm@wd@mp=\dimen125
+\Gm@odd@mp=\dimen126
+\Gm@even@mp=\dimen127
+\Gm@layoutwidth=\dimen128
+\Gm@layoutheight=\dimen129
+\Gm@layouthoffset=\dimen130
+\Gm@layoutvoffset=\dimen131
+\Gm@dimlist=\toks22
 ) (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Info: Redefining \degres on input line 66.
-LaTeX Info: Redefining \dots on input line 66.
-LaTeX Info: Redefining \up on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Info: Redefining \degres on input line 63.
+LaTeX Info: Redefining \dots on input line 63.
+LaTeX Info: Redefining \up on input line 63.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
-\scratchdimen=\dimen137
-\scratchbox=\box32
+\scratchdimen=\dimen132
+\scratchbox=\box31
 \nofMPsegments=\count112
 \nofMParguments=\count113
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks23
 \MPscratchCnt=\count114
-\MPscratchDim=\dimen138
+\MPscratchDim=\dimen133
 \MPnumerator=\count115
 \makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -659,15 +653,21 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<img/qr.jpeg, id=1, 451.6875pt x 451.6875pt>
+File: img/qr.jpeg Graphic file (type jpg)
+ <use img/qr.jpeg>
+Package pdftex.def Info: img/qr.jpeg used on input line 65.
+(pdftex.def)             Requested size: 142.26163pt x 142.26163pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 68.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 68.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 68.
-[1
+(Font)              <6> on input line 65.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./rapport.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/qr.jpeg>] (./rapport
+.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -680,7 +680,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapitre 1.
-(./Introduction/contexte.tex) (./Introduction/cahierDesCharges.tex) [2
+(./Introduction/contexte.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+) (./Introduction/cahierDesCharges.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [2
 
 ]
 Chapitre 2.
@@ -689,40 +704,51 @@ Chapitre 2.
 
 ]
 Chapitre 3.
+(./Conception/typesQRCodes.tex) (./Conception/representationDonnees.tex)
+(./Conception/chargementQRCodes.tex) [4
+
+]
+Chapitre 4.
 (./Realisation/AppliBureau/architecture.tex)
 (./Realisation/AppliBureau/modele.tex) (./Realisation/AppliBureau/vue.tex)
 (./Realisation/AppliBureau/controleur.tex)
 (./Realisation/AppliMobile/appliExistante.tex)
 (./Realisation/AppliMobile/adaptation.tex)
 (./Realisation/AppliMobile/telechargementDrive.tex)
-(./Realisation/representationDonnees.tex) (./Realisation/contraintesChoix.tex)
-[4
+(./Realisation/contraintesChoix.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--128
+
+ []
+
+[5
 
 ]
-Chapitre 4.
-(./Conclusion/conclusion.tex) [5
+Chapitre 5.
+(./Conclusion/conclusion.tex) [6
 
 ] (./rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 6586 strings out of 493029
- 90818 string characters out of 6136234
- 173883 words of memory out of 5000000
- 9965 multiletter control sequences out of 15000+600000
- 15538 words of font info for 35 fonts, out of 8000000 for 9000
+ 6399 strings out of 493029
+ 88549 string characters out of 6136234
+ 170682 words of memory out of 5000000
+ 9765 multiletter control sequences out of 15000+600000
+ 17742 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,64p,240b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,64p,590b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
 /usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></
+ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on rapport.pdf (6 pages, 128312 bytes).
+s/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on rapport.pdf (7 pages, 253816 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

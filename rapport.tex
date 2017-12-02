@@ -4,10 +4,10 @@
 \usepackage[francais]{babel}
 \usepackage{wrapfig}
 \usepackage{graphicx}
-\usepackage{titlesec}
 \usepackage{listings,xcolor}
 \usepackage{appendix}
 \usepackage{adjustbox}
+\usepackage{titling}
 
 %Géométrie des pages
 \usepackage{geometry}
@@ -17,17 +17,7 @@
 \definecolor{colorxmlnode}{rgb}{0.2, 0.2, 0.2} 
 \definecolor{maroon}{RGB}{178 34 34}
 
-%Profondeur des compteurs et de la tableofcontents
-\setcounter{secnumdepth}{5}
-\setcounter{tocdepth}{3}
 
-%ltset par défaut
-\lstset{
-  basicstyle=\ttfamily,
-  columns=fullflexible,
-  showstringspaces=false,
-  commentstyle=\color{gray}\upshape
-}
 
 %lst xml
 \lstdefinelanguage{XML}
@@ -43,15 +33,22 @@
   identifierstyle=\color{maroon}
 }
 
-%Taille des titres
-\titleformat*{\section}{\LARGE\bfseries}
-\titleformat*{\subsection}{\Large\bfseries}
-\titleformat*{\subsubsection}{\large\bfseries}
 
 \addto\captionsfrench{%
   \renewcommand\appendixname{Annexe}
   \renewcommand\appendixpagename{Annexes}
 }
+
+
+\setlength{\droptitle}{-10em}   % This is your set screw
+
+
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[width=5cm,height=5cm]{img/qr.jpeg}\\[30px]
+}
+\posttitle{\end{center}}
 
 
 \title{% 
@@ -77,6 +74,7 @@
 	\section{Cahier des charges}
 		\input{Introduction/cahierDesCharges.tex}
 
+
 \chapter{Organisation}
 
 	\section{Répartition des tâches}
@@ -84,6 +82,19 @@
 	
 	\section{Planning}
 		\input{Organisation/planning.tex}
+		
+		
+\chapter{Conception}
+
+	\section{Types de QRCodes}
+		\input{Conception/typesQRCodes.tex}
+		
+	\section{Représentation des données}
+		\input{Conception/representationDonnees.tex}
+		
+	\section{Chargement et modification de QRCodes}
+		\input{Conception/chargementQRCodes.tex}
+
 
 \chapter{Réalisation}
 
@@ -112,19 +123,14 @@
 		\subsection{Téléchargement Drive}
 			\input{Realisation/AppliMobile/telechargementDrive.tex}
 			
-	\section{Représentation des données}
-		\input{Realisation/representationDonnees.tex}
-		
 	\section{Contraintes et choix}
-	
 		\input{Realisation/contraintesChoix.tex}
-		
 
 
 \chapter{Conclusion}
 	\input{Conclusion/conclusion.tex}
 
-*
+
 
 
 

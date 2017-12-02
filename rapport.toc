@@ -5,16 +5,19 @@
 \contentsline {chapter}{\numberline {2}Organisation}{3}
 \contentsline {section}{\numberline {2.1}R\IeC {\'e}partition des t\IeC {\^a}ches}{3}
 \contentsline {section}{\numberline {2.2}Planning}{3}
-\contentsline {chapter}{\numberline {3}R\IeC {\'e}alisation}{4}
-\contentsline {section}{\numberline {3.1}Application de bureau}{4}
-\contentsline {subsection}{\numberline {3.1.1}Architecture}{4}
-\contentsline {subsection}{\numberline {3.1.2}Mod\IeC {\`e}le}{4}
-\contentsline {subsection}{\numberline {3.1.3}Vue}{4}
-\contentsline {subsection}{\numberline {3.1.4}Contr\IeC {\^o}leur}{4}
-\contentsline {section}{\numberline {3.2}Application mobile}{4}
-\contentsline {subsection}{\numberline {3.2.1}Application existante}{4}
-\contentsline {subsection}{\numberline {3.2.2}Adaptation aux nouveaux QR Codes}{4}
-\contentsline {subsection}{\numberline {3.2.3}T\IeC {\'e}l\IeC {\'e}chargement Drive}{4}
-\contentsline {section}{\numberline {3.3}Repr\IeC {\'e}sentation des donn\IeC {\'e}es}{4}
-\contentsline {section}{\numberline {3.4}Contraintes et choix}{4}
-\contentsline {chapter}{\numberline {4}Conclusion}{5}
+\contentsline {chapter}{\numberline {3}Conception}{4}
+\contentsline {section}{\numberline {3.1}Types de QRCodes}{4}
+\contentsline {section}{\numberline {3.2}Repr\IeC {\'e}sentation des donn\IeC {\'e}es}{4}
+\contentsline {section}{\numberline {3.3}Chargement et modification de QRCodes}{4}
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{5}
+\contentsline {section}{\numberline {4.1}Application de bureau}{5}
+\contentsline {subsection}{\numberline {4.1.1}Architecture}{5}
+\contentsline {subsection}{\numberline {4.1.2}Mod\IeC {\`e}le}{5}
+\contentsline {subsection}{\numberline {4.1.3}Vue}{5}
+\contentsline {subsection}{\numberline {4.1.4}Contr\IeC {\^o}leur}{5}
+\contentsline {section}{\numberline {4.2}Application mobile}{5}
+\contentsline {subsection}{\numberline {4.2.1}Application existante}{5}
+\contentsline {subsection}{\numberline {4.2.2}Adaptation aux nouveaux QR Codes}{5}
+\contentsline {subsection}{\numberline {4.2.3}T\IeC {\'e}l\IeC {\'e}chargement Drive}{5}
+\contentsline {section}{\numberline {4.3}Contraintes et choix}{5}
+\contentsline {chapter}{\numberline {5}Conclusion}{6}
