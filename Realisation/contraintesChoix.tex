@@ -9,7 +9,7 @@ Au cours du développement, nous avons dû réaliser un certain nombre de choix 
 \par
 Le choix des langages de programmation pour l'application de bureau a été discuté lors de la première séance. Nous avons évoqué le couple Java/Swing qui avait l'avantage d'être le plus simple à programmer mais qui nécessitait un environnement Java sur les machines des utilisateurs. Nous avons également évoqué le couple C++/Qt qui était le plus portable mais potentiellement trop lourd pour l'utilisation qu'on en aurait. 
 \par
-Les responsables du projet ont finalement opté pour le framework Electron entre les deux premières séances. Ce framework permet de développer des applications de bureau avec des langages web (JavaScript/HTML/CSS). Ce choix a été motivé par l'intérêt qu'avait le JavaScript d'être facilement utilisable pour accéder à Google Drive (REF STOCKAGE DRIVE).
+Les responsables du projet ont finalement opté pour le framework Electron entre les deux premières séances. Ce framework permet de développer des applications de bureau avec des langages web (Javascript/HTML/CSS). Ce choix a été motivé par l'intérêt qu'avait le Javascript d'être facilement utilisable pour accéder à Google Drive (REF STOCKAGE DRIVE).
 
 \subsubsection{Utilisation d'une structure XML et compression}
 \par
@@ -30,18 +30,22 @@ Les transcripteurs de l'institut l'utilisant déjà, le drive de Google a été 
 
 \subsubsection{Connexion à Google Drive dans l'application Android}
 \par
-L'utilisation de Google Drive a pour principal inconvénient de forcer l'utilisation des API\footnote{Application Programming Interface : Ensemble ce classes, de méthodes et de fonctions, ici pour accéder aux données stockées sur Google Drive.} de Google. En effet, même pour un fichier disponible publiquement, on ne peut pas le télécharger directement sans passer par un navigateur ou par une des API Google. La commande wget sur l'URL du fichier renvoie en effet la page de téléchargement HTML du fichier et pas le fichier lui-même. Nous aurions peut-être pu récupérer le fichier en analysant la page HTML reçue, mais cela aurait rendu l'application dépendante à la syntaxe de cette page pouvant être modifiée par Google à tout moment.
+L'utilisation de Google Drive a pour principal inconvénient de forcer l'utilisation des API\footnote{Application Programming Interface : Ensemble ce classes, de méthodes et de fonctions. Ici pour accéder aux données stockées sur Google Drive.} de Google. En effet, même pour un fichier disponible publiquement, on ne peut pas le télécharger directement sans passer par un navigateur ou par une des API Google. La commande wget sur l'URL du fichier renvoie la page de téléchargement HTML du fichier et pas le fichier lui-même. Nous aurions peut-être pu récupérer le fichier en analysant la page HTML reçue, mais cela aurait rendu l'application dépendante à la syntaxe de cette page pouvant être modifiée par Google à tout moment.
 \par
 Pour ces raisons, nous avons été contraints d'implémenter l'API Google Drive REST dans l'application Android, et donc d'imposer une authentification pénible aux utilisateurs.
 
-\subsubsection{Format de sauvegarde des images}
-
+\subsubsection{Format de sauvegarde des images (JPG)}
+\par
+Afin de pouvoir insérer des informations dans les métadonnées des images générées par l'application de bureau (REF STRUC DONNEES), nous avons recherché les librairies Javascript permettant de créer une image à partir d'un canvas HTML5 et d'insérer les métadonnées pendant le processus de génération de l'image. Nous n'avons trouvé que des librairies permettant d'insérer des métadonnées de type EXIF\footnote{Exchangeable Image File Format}, qui sont présentes dans les fichiers JPEG mais pas PNG. Il s'agit de la raison pour laquelle nous avons utilisé ce format.
 
 
 
 \subsection{Choix d'implémentation}
 
-\subsubsection{Bouton connexion drive dans Android}
-
-
- ...\\
+\subsubsection{Gestion des droits et bouton de connexion dans l'application Android}
+\par
+Le bouton de connexion au drive de Google (REF CONNEXION DRIVE ANDROID) est né de la volonté de rendre l'application Android utilisable pour lire les QR Codes ne nécessitant pas de connexion au drive sans avoir à se connecter. Cela respecte la philosophie des dernières versions d'Android de ne demander les permissions que lorsqu'elles sont nécessaires.
+\par
+Les permissions indispensables au fonctionnement de l'application (caméra, vibreur) sont demandées au démarrage de l'application, tandis que la connexion au drive se fait de manière volontaire.
+\par
+La présence du bouton sur l'écran de détection provient de la complexité de passer des objets complexes entre deux activités sur Android. Il était initialement prévu de placer ce bouton dans l'écran d'options mais cela nous aurait demandé trop de temps à l'approche du délai de fin de projet. Pour laisser tout de même la possibilité de se déconnecter du drive lorsque la connexion est effectuée et que le bouton disparaît dans un souci d'ergonomie, un bouton de déconnexion est présent dans l'activité d'options.
