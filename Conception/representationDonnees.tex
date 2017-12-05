@@ -1,0 +1,51 @@
+\par
+Les QR Codes devant stocker plus d'informations que dans la version initiale de l'application mobile, il nous a fallu définir une structure de données pour les représenter. Cette représentation s'est construite parallèlement à l'élaboration des types de QR Codes (LIEN TYPES QR) et à celle du Modèle (LIEN MODÈLE), afin d'assurer la cohérence de l'ensemble.
+\par
+Notre choix s'est porté sur une structure XML\footnote{Hypertext Markup Language}. Cette structure a montré ses faiblesses par la suite (voir REF CHOIX XML), mais avait déjà crée trop de dépendances pour être modifiée.\\
+
+\par
+Afin de minimiser la quantité de données stockées dans le QR Code, seules les données indispensables à l'interprétation du QR Code par l'application mobile y sont stockées. Les données annexes nécessaires au chargement d'un QR Code par l'application de bureau sont stockées dans les métadonnées de l'image (REF CONTROLLEUR/METADONNÉES). On y trouve les données relatives au nom et aux couleurs du QR Code, ou encore au nom des fichiers contenus.
+\par
+La structure fait apparaître clairement la dichotomie entre les données stockées dans le QR Code (noeud \noeud{donneesUtilisateur}) et les données stockées dans les metadonnées de l'image (noeud \noeud{metadonnees}).\\
+
+\par
+Le type de QR Code (atomique ou ensemble) est indiqué par un attribut dans le noeud \noeud{<donneesUtilisateur>}. Ce noeud contient un noeud \noeud{contenu} contenant lui-même un ensemble de textes (\noeud{texte}) et de fichiers (\noeud{fichier}).
+\par
+L'appartenance à une famille (REF TYPES QR) de QR Codes est indiquée par la présence d'un noeud \noeud{famille} ayant pour attributs le nom de la famille et la place du QR Code.\\
+
+\par
+Un exemple complet de représentation XML d'un QR Code est visible dans la figure ci-dessous.
+
+\begin{figure}[!h]
+\begin{adjustbox}{minipage=\textwidth,bgcolor={RGB}{240 240 240}}
+
+\lstset{language=XML}
+
+\begin{lstlisting}
+
+<qrcode>
+  <donneesutilisateur type="atomique">
+    <contenu>
+      <texte>champ1</texte>
+      <fichier url="URLFICHIER"></fichier>
+      <texte>champ2</texte>
+    </contenu>
+    <famille nom="famille" ordre="4"></famille>
+  </donneesutilisateur>
+  <metadonnees>
+    <fichiers>
+      <fichier url="URLFICHIER" nom="fichier1"></fichier>
+    </fichiers>
+    <colorqrcode color="#085a0c"></colorqrcode>
+    <textebraille texte="QR"></textebraille>
+    <colorbraille color="#f11313"></colorbraille>
+  </metadonnees>
+</qrcode>
+
+ 
+\end{lstlisting}
+
+\end{adjustbox}
+\caption{Représentation d'un QR Code}
+
+\end{figure}\textbf{}
