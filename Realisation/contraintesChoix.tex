@@ -1,4 +1,47 @@
-- Stockage des sons en distant dans le drive\\
-- Utilisation structure XML\\
-- Compression XML\\
-- ...\\
+\par
+Au cours du développement, nous avons dû réaliser un certain nombre de choix techniques. Nous avions parfois plusieurs alternatives et nous avons dû faire des compromis entre complexité de mise en place et efficacité, tout en préservant au mieux la cohérence de l'ensemble.
+
+\par Nous listons ci-dessous les principaux choix effectués ainsi que les raisons qui nous ont poussé à les faire.
+
+\subsection{Langages}
+
+\subsubsection{Développement avec le framework Electron}
+\par
+Le choix des langages de programmation pour l'application de bureau a été discuté lors de la première séance. Nous avons évoqué le couple Java/Swing qui avait l'avantage d'être le plus simple à programmer mais qui nécessitait un environnement Java sur les machines des utilisateurs. Nous avons également évoqué le couple C++/Qt qui était le plus portable mais potentiellement trop lourd pour l'utilisation qu'on en aurait. 
+\par
+Les responsables du projet ont finalement opté pour le framework Electron entre les deux premières séances. Ce framework permet de développer des applications de bureau avec des langages web (JavaScript/HTML/CSS). Ce choix a été motivé par l'intérêt qu'avait le JavaScript d'être facilement utilisable pour accéder à Google Drive (REF STOCKAGE DRIVE).
+
+\subsubsection{Utilisation d'une structure XML et compression}
+\par
+Nous avons choisi au début du projet d'utiliser une structure XML pour représenter les données stockées dans le QR Code (REF REPR. DONNEES). Ce choix était motivé principalement par la facilité de gestion du XML en JavaScript.
+\par
+Le XML a toutefois posé des problèmes au niveau de la concision des QR Codes générés. Nous avons tenté de remplacer la structure XML par une structure JSON plus concise lors de la première semaine de décembre, mais nous avions déjà trop de dépendances au XML. Nous avons alors tenté d'utiliser des librairies convertissant le XML déjà généré en JSON avant l'insertion des données dans le QR Code, mais nous n'en avons trouvé aucune suffisamment fiable (les attributs des noeuds xml étaient très mal gérés, et les noeuds de même nom étaient fusionnés sans respecter leur ordre).
+\par
+Nous nous sommes donc orientés vers une solution de compression pour compenser l'intérêt qu'avait le JSON sur le XML (REF COMPRESSION). Cette solution offre de très bon résultats (toutes les chaînes XML de plus de deux caractères sont compressées en un caractère utf-8 codé sur deux octets). Toutefois, elle ne compresse que la représentation des données et pas les données en elles-mêmes.
+
+
+\subsection{Technologies et formats}
+
+\subsubsection{Stockage des fichiers distants dans Google Drive}
+\par
+Le stockage des fichiers sur un serveur distant était indispensable car on ne peut pas stocker des données binaires représentant un fichier mp3 dans un QR Code de taille raisonnable.
+Les transcripteurs de l'institut l'utilisant déjà, le drive de Google a été la solution la plus simple. Cette solution présente également l'avantage de ne pas nécessiter la mise en place et la location d'un serveur.
+
+
+\subsubsection{Connexion à Google Drive dans l'application Android}
+\par
+L'utilisation de Google Drive a pour principal inconvénient de forcer l'utilisation des API\footnote{Application Programming Interface : Ensemble ce classes, de méthodes et de fonctions, ici pour accéder aux données stockées sur Google Drive.} de Google. En effet, même pour un fichier disponible publiquement, on ne peut pas le télécharger directement sans passer par un navigateur ou par une des API Google. La commande wget sur l'URL du fichier renvoie en effet la page de téléchargement HTML du fichier et pas le fichier lui-même. Nous aurions peut-être pu récupérer le fichier en analysant la page HTML reçue, mais cela aurait rendu l'application dépendante à la syntaxe de cette page pouvant être modifiée par Google à tout moment.
+\par
+Pour ces raisons, nous avons été contraints d'implémenter l'API Google Drive REST dans l'application Android, et donc d'imposer une authentification pénible aux utilisateurs.
+
+\subsubsection{Format de sauvegarde des images}
+
+
+
+
+\subsection{Choix d'implémentation}
+
+\subsubsection{Bouton connexion drive dans Android}
+
+
+ ...\\
