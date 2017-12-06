@@ -1,4 +1,4 @@
-\documentclass{report}
+ \documentclass{report}
 \usepackage[utf8]{inputenc}    
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
@@ -17,6 +17,10 @@
 \definecolor{colorxmlnode}{rgb}{0.2, 0.2, 0.2} 
 \definecolor{maroon}{RGB}{178 34 34}
 
+
+%Profondeur des compteurs et de la tableofcontents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
 
 
 %lst xml
@@ -39,6 +43,8 @@
   \renewcommand\appendixpagename{Annexes}
 }
 
+%Définition des commandes \noeud et \classe
+\newcommand\classe[1]{\mbox{\textit{#1}}}
 \newcommand\noeud[1]{\textcolor{colorxmlnode}{<\mbox{#1}>}}
 
 
@@ -73,69 +79,86 @@
 	\section{Contexte}
 		\input{Introduction/contexte.tex}
 	
-	\section{Cahier des charges}
+	\section{Objectifs}
 		\input{Introduction/cahierDesCharges.tex}
 
 
-\chapter{Organisation}
-
-	\section{Répartition des tâches}
-		\input{Organisation/repartitionDesTaches.tex}
-	
-	\section{Planning}
-		\input{Organisation/planning.tex}
 		
-		
-\chapter{Conception}
+\chapter{Modélisation}
 
 	\section{Types de QRCodes}
-		\input{Conception/typesQRCodes.tex}
+		\input{Modelisation/typesQRCodes.tex}
 		
 	\section{Représentation des données}
-		\input{Conception/representationDonnees.tex}
+		\input{Modelisation/representationDonnees.tex}
 		
-	\section{Architecture de l'application de bureau}
-		\input{Conception/architectureBureau.tex}
 
+\chapter{Application de bureau}
 
-\chapter{Réalisation}
-
-	\section{Application de bureau}
-
-		\subsection{Architecture}
-			\input{Realisation/AppliBureau/architecture.tex}
-
-		\subsection{Modèle}
-			\input{Realisation/AppliBureau/modele.tex}
-
-		\subsection{Vue}
-			\input{Realisation/AppliBureau/vue.tex}
-				
-		\subsection{Contrôleur}
-			\input{Realisation/AppliBureau/controleur.tex}
-
-	\section{Application mobile}
+	\section{Conception}
 		
-		\subsection{Application existante}
-			\input{Realisation/AppliMobile/appliExistante.tex}
-		
-		\subsection{Adaptation aux nouveaux QR Codes}
-			\input{Realisation/AppliMobile/adaptation.tex}
-		
-		\subsection{Téléchargement Drive}
-			\input{Realisation/AppliMobile/telechargementDrive.tex}
+		\subsection{Langages}
+			\input{ApplicationBureau/Conception/langages.tex}
 			
-	\section{Contraintes et choix}
-		\input{Realisation/contraintesChoix.tex}
+		\subsection{Architecture}		
+			\input{ApplicationBureau/Conception/architecture.tex}
+			
+		
+	\section{Implémentation}
+		
+		\subsection{Interface graphique}
+			\input{ApplicationBureau/Implementation/interfaceGraphique.tex}
+			
+		\subsection{Prévisualisation}
+			\input{ApplicationBureau/Implementation/previsualisation.tex}
+			
+		\subsection{Génération de QR Codes}
+			\input{ApplicationBureau/Implementation/generationQRCodes.tex}
+			
+		\subsection{Gestion des métadonnées}
+			\input{ApplicationBureau/Implementation/gestionMetadonnees.tex}
+			
+		\subsection{Chargement de QR Codes}
+			\input{ApplicationBureau/Implementation/chargementQRCodes.tex}
+			
+		\subsection{Compression}
+			\input{ApplicationBureau/Implementation/compression.tex}
+			
+		\subsection{Lecture des fichiers du drive}
+			\input{ApplicationBureau/Implementation/lectureDrive.tex}
+			
+		\subsection{Limite de la taille des QR Codes}
+			\input{ApplicationBureau/Implementation/limiteTaille.tex}
 
+\chapter{Application mobile}
+
+	\section{Application existante}
+		\input{ApplicationAndroid/appliExistante.tex}
+		
+	\section{Connexion à Google Drive}
+		\input{ApplicationAndroid/telechargementDrive.tex}
+
+	\section{Adaptation aux nouveaux QR Codes}
+		\input{ApplicationAndroid/adaptation.tex}
 
 \chapter{Conclusion}
 	\input{Conclusion/conclusion.tex}
 
 
 
+\addappheadtotoc
+\appendixpage
 
+\appendix
 
+\section{Organisation}
+
+	\input{Annexes/organisation.tex}
+		
+		
+\section{Manuel Utilisateur}
+
+	\input{Annexes/manuel.tex} 
 
 
 \end{document}
