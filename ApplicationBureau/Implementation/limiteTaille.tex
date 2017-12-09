@@ -1,0 +1,4 @@
+\par
+La taille du QR Code peut influer sur sa lecture. En effet si la taille du QR Code est très grande, sa lecture par synthèse vocale sera impossible. De ce fait pour pallier à ce problème, nous avons mis en place une restriction sur la taille. Et pour ce faire, à chaque fois qu'il y ait une requête pour une prévisualisation, on vérifie si la taille du QR Code après compression ne dépasse pas un seuil que nous avons établi.\\
+Pour la compression nous procédons de la manière suivante : remplacer la plupart des chaines de caractères du QR Code représentant les données par des caractères utf8 prédéfinis.
+Les caractères utf8 associés appartiennent à l'alphabet cyrillique\footnote{L’alphabet cyrillique est un alphabet bicaméral de trente lettres} et commencent à U+0400.

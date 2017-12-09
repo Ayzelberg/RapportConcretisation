@@ -1,4 +1,4 @@
-\documentclass{report}
+ \documentclass{report}
 \usepackage[utf8]{inputenc}    
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
@@ -8,8 +8,6 @@
 \usepackage{appendix}
 \usepackage{adjustbox}
 \usepackage{titling}
-\usepackage{float}
-
 
 %Géométrie des pages
 \usepackage{geometry}
@@ -79,70 +77,65 @@
 \chapter{Introduction}
 
 	\section{Contexte}
-		\input{Introduction/contexte.tex} \label{contexte}
+		\input{Introduction/contexte.tex}
 	
 	\section{Objectifs}
-		\input{Introduction/cahierDesCharges.tex} \label{objectifs}
+		\input{Introduction/cahierDesCharges.tex}
 
 
 		
-\chapter{Conception}
+\chapter{Modélisation}
 
 	\section{Types de QRCodes}
-		\input{Modelisation/typesQRCodes.tex} \label{typesQR}
-		
-	\newpage
+		\input{Modelisation/typesQRCodes.tex}
 		
 	\section{Représentation des données}
-		\input{Modelisation/representationDonnees.tex} \label{representationDonnees}
-		
-	\section{Stockage des données}
-		\input{Modelisation/stockage.tex} \label{stockage}
+		\input{Modelisation/representationDonnees.tex}
 		
 
 \chapter{Application de bureau}
 
-	\section{Conception logicielle}
+	\section{Conception}
 		
 		\subsection{Langages}
-			\input{ApplicationBureau/Conception/langages.tex} \label{langages}
+			\input{ApplicationBureau/Conception/langages.tex}
 			
 		\subsection{Architecture}		
-			\input{ApplicationBureau/Conception/architecture.tex} \label{architecture}
-				
+			\input{ApplicationBureau/Conception/architecture.tex}
+			
 		
 	\section{Implémentation}
 		
 		\subsection{Interface graphique}
-			\input{ApplicationBureau/Implementation/interfaceGraphique.tex} \label{interfaceGraphique}
+			\input{ApplicationBureau/Implementation/interfaceGraphique.tex}
 			
 		\subsection{Prévisualisation}
-			\input{ApplicationBureau/Implementation/previsualisation.tex} \label{previsualisation}
+			\input{ApplicationBureau/Implementation/previsualisation.tex}
 			
 		\subsection{Génération de QR Codes}
-			\input{ApplicationBureau/Implementation/generationQRCodes.tex} \label{generation}
+			\input{ApplicationBureau/Implementation/generationQRCodes.tex}
 			
 		\subsection{Gestion des métadonnées}
-			\input{ApplicationBureau/Implementation/gestionMetadonnees.tex} \label{metadonnees}
+			\input{ApplicationBureau/Implementation/gestionMetadonnees.tex}
 			
 		\subsection{Chargement de QR Codes}
-			\input{ApplicationBureau/Implementation/chargementQRCodes.tex} \label{chargement}
+			\input{ApplicationBureau/Implementation/chargementQRCodes.tex}
 			
 		\subsection{Compression}
-			\input{ApplicationBureau/Implementation/compression.tex} \label{compression}
+			\input{ApplicationBureau/Implementation/compression.tex}
 			
 		\subsection{Lecture des fichiers du drive}
-			\input{ApplicationBureau/Implementation/lectureDrive.tex} \label{lectureDrive}
+			\input{ApplicationBureau/Implementation/lectureDrive.tex}
 			
 		\subsection{Limite de la taille des QR Codes}
-			\input{ApplicationBureau/Implementation/limiteTaille.tex} \label{limiteTaille}
+			\input{ApplicationBureau/Implementation/limiteTaille.tex}
 
 \chapter{Application mobile}
 
 	\section{Application existante}
 		\input{ApplicationAndroid/appliExistante.tex}
 		
-	\section{Connexion à Google Drive et gestion des droits}
+	\section{Connexion à Google Drive}
 		\input{ApplicationAndroid/telechargementDrive.tex}
 
 	\section{Adaptation aux nouveaux QR Codes}

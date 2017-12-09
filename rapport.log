@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  2 DEC 2017 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.29)  9 DEC 2017 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,21 +545,21 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Info: Redefining \degres on input line 63.
-LaTeX Info: Redefining \dots on input line 63.
-LaTeX Info: Redefining \up on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Info: Redefining \degres on input line 71.
+LaTeX Info: Redefining \dots on input line 71.
+LaTeX Info: Redefining \up on input line 71.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
@@ -656,14 +656,14 @@ e
 <img/qr.jpeg, id=1, 451.6875pt x 451.6875pt>
 File: img/qr.jpeg Graphic file (type jpg)
  <use img/qr.jpeg>
-Package pdftex.def Info: img/qr.jpeg used on input line 65.
+Package pdftex.def Info: img/qr.jpeg used on input line 73.
 (pdftex.def)             Requested size: 142.26163pt x 142.26163pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 65.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 65.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 65.
+(Font)              <6> on input line 73.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/qr.jpeg>] (./rapport
@@ -685,7 +685,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
 ) (./Introduction/cahierDesCharges.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+) [2
+
+]
+Chapitre 2.
+(./Modelisation/typesQRCodes.tex
+
+LaTeX Warning: Reference `objectifs' on page 3 undefined on input line 2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+) (./Modelisation/representationDonnees.tex
+
+LaTeX Warning: Reference `typesQR' on page 3 undefined on input line 2.
+
+
+LaTeX Warning: Reference `architecture' on page 3 undefined on input line 2.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -695,60 +725,249 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [2
-
-]
-Chapitre 2.
-(./Organisation/repartitionDesTaches.tex) (./Organisation/planning.tex)
 [3
 
-]
-Chapitre 3.
-(./Conception/typesQRCodes.tex) (./Conception/representationDonnees.tex)
-(./Conception/chargementQRCodes.tex) [4
+] <img/schema_representation_donnees.png, id=28, 1433.355pt x 691.58376pt>
+File: img/schema_representation_donnees.png Graphic file (type png)
 
-]
-Chapitre 4.
-(./Realisation/AppliBureau/architecture.tex)
-(./Realisation/AppliBureau/modele.tex) (./Realisation/AppliBureau/vue.tex)
-(./Realisation/AppliBureau/controleur.tex)
-(./Realisation/AppliMobile/appliExistante.tex)
-(./Realisation/AppliMobile/adaptation.tex)
-(./Realisation/AppliMobile/telechargementDrive.tex)
-(./Realisation/contraintesChoix.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--128
+<use img/schema_representation_donnees.png>
+Package pdftex.def Info: img/schema_representation_donnees.png used on input li
+ne 17.
+(pdftex.def)             Requested size: 473.00862pt x 228.22334pt.
+
+Overfull \hbox (0.97739pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+[4 <./img/schema_representation_donnees.png>]
+
+LaTeX Warning: Reference `compression' on page 5 undefined on input line 23.
+
+
+Overfull \hbox (10.99226pt too wide) in paragraph at lines 25--26
+[]\T1/cmr/m/n/10 Le type de QR Code (ato-mique ou en-semble) est in-di-qué par 
+un at-tri-but dans le noeud []<[]>[].
+ []
+
+
+LaTeX Warning: Reference `typesQR' on page 5 undefined on input line 27.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)) [5]
+Chapitre 3.
+(./ApplicationBureau/Conception/langages.tex
+
+LaTeX Warning: Reference `stockage' on page 6 undefined on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[5
+) (./ApplicationBureau/Conception/architecture.tex
+<img/facade.png, id=38, 1683.28876pt x 350.30875pt>
+File: img/facade.png Graphic file (type png)
+ <use img/facade.png>
+Package pdftex.def Info: img/facade.png used on input line 6.
+(pdftex.def)             Requested size: 420.82117pt x 87.57697pt.
+
+
+LaTeX Warning: Reference `typesQR' on page 6 undefined on input line 11.
+
+[6
+
+ <./img/facade.png>] <img/modeleUML.png, id=45, 838.13126pt x 670.505pt>
+File: img/modeleUML.png Graphic file (type png)
+
+<use img/modeleUML.png>
+Package pdftex.def Info: img/modeleUML.png used on input line 15.
+(pdftex.def)             Requested size: 335.24657pt x 268.19725pt.
+
+
+LaTeX Warning: Reference `generation' on page 7 undefined on input line 20.
+
+
+LaTeX Warning: Reference `chargement' on page 7 undefined on input line 20.
+
+<img/controllerUML.png, id=46, 782.925pt x 430.60875pt>
+File: img/controllerUML.png Graphic file (type png)
+
+<use img/controllerUML.png>
+Package pdftex.def Info: img/controllerUML.png used on input line 25.
+(pdftex.def)             Requested size: 313.16446pt x 172.24043pt.
+
+
+LaTeX Warning: Reference `interfaceGraphique' on page 7 undefined on input line
+ 30.
+
+) (./ApplicationBureau/Implementation/interfaceGraphique.tex
+<img/interface.png, id=47, 1309.89375pt x 737.75626pt>
+File: img/interface.png Graphic file (type png)
+ <use img/interface.png>
+Package pdftex.def Info: img/interface.png used on input line 6.
+(pdftex.def)             Requested size: 327.47264pt x 184.43861pt.
+
+[7 <./img/modeleUML.png> <./img/controllerUML.png>]
+<img/image-famille.png, id=53, 1355.0625pt x 798.985pt>
+File: img/image-famille.png Graphic file (type png)
+
+<use img/image-famille.png>
+Package pdftex.def Info: img/image-famille.png used on input line 21.
+(pdftex.def)             Requested size: 338.7648pt x 199.74576pt.
+ [8 <./img/interface.png> <./img/image-famille.png>]) (./ApplicationBureau/Impl
+ementation/previsualisation.tex)
+(./ApplicationBureau/Implementation/generationQRCodes.tex
+
+LaTeX Warning: Reference `objectifs' on page 9 undefined on input line 2.
+
+
+LaTeX Warning: Reference `typesQR' on page 9 undefined on input line 2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+<img/qrsimple.jpeg, id=57, 451.6875pt x 451.6875pt>
+File: img/qrsimple.jpeg Graphic file (type jpg)
+ <use img/qrsimple.jpeg>
+Package pdftex.def Info: img/qrsimple.jpeg used on input line 6.
+(pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `architecture' on page 9 undefined on input line 11.
+
+
+LaTeX Warning: Reference `typesQR' on page 9 undefined on input line 11.
+
+
+LaTeX Warning: Reference `chargement' on page 9 undefined on input line 11.
+
+<img/animaux.jpeg, id=58, 501.875pt x 501.875pt>
+File: img/animaux.jpeg Graphic file (type jpg)
+ <use img/animaux.jpeg>
+Package pdftex.def Info: img/animaux.jpeg used on input line 15.
+(pdftex.def)             Requested size: 100.37321pt x 100.37321pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./ApplicationBureau/Implementation/gestionMetadonnees.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[9]) (./ApplicationBureau/Implementation/chargementQRCodes.tex
+
+LaTeX Warning: Reference `representationDonnees' on page 10 undefined on input 
+line 2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+LaTeX Warning: Reference `generation' on page 10 undefined on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+[10 <./img/qrsimple.jpeg> <./img/animaux.jpeg>])
+(./ApplicationBureau/Implementation/compression.tex
+
+LaTeX Warning: Reference `representationDonnees' on page 11 undefined on input 
+line 2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/compression.png, id=65, 621.32124pt x 59.22125pt>
+File: img/compression.png Graphic file (type png)
+
+<use img/compression.png>
+Package pdftex.def Info: img/compression.png used on input line 35.
+(pdftex.def)             Requested size: 372.79562pt x 35.533pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./ApplicationBureau/Implementation/lectureDrive.tex) [11]
+(./ApplicationBureau/Implementation/limiteTaille.tex) [12 <./img/compression.pn
+g>]
+Chapitre 4.
+(./ApplicationAndroid/appliExistante.tex)
+(./ApplicationAndroid/telechargementDrive.tex)
+(./ApplicationAndroid/adaptation.tex) [13
 
 ]
 Chapitre 5.
-(./Conclusion/conclusion.tex) [6
+(./Conclusion/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
-] (./rapport.aux) ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+) [14
+
+] [15
+
+] (./Annexes/organisation.tex) (./Annexes/manuel.tex) [16]
+(./rapport.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6399 strings out of 493029
- 88549 string characters out of 6136234
- 170682 words of memory out of 5000000
- 9765 multiletter control sequences out of 15000+600000
- 17742 words of font info for 38 fonts, out of 8000000 for 9000
+ 6764 strings out of 493029
+ 93038 string characters out of 6136234
+ 200716 words of memory out of 5000000
+ 10104 multiletter control sequences out of 15000+600000
+ 18741 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,64p,590b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on rapport.pdf (7 pages, 253816 bytes).
+ 38i,8n,67p,1379b,1326s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sftt1000.pfb>
+Output written on rapport.pdf (17 pages, 1609972 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
