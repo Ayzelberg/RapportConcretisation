@@ -1,0 +1,55 @@
+\par
+L'interface graphique offre la possibilité à l'utilisateur d'interagir avec l'application.
+
+\begin{figure}[!h]
+	\centering
+   \includegraphics[scale=0.25]{img/interface.png}
+   \caption{Interface de création d'une famille de qrcodes}
+\end{figure}
+
+\par
+Elle constituée de trois blocs partant de la gauche vers la droite : 
+\begin{enumerate}
+\item Bloc 1 : partant de haut en bas, il regroupe les boutons permettant les opérations suivantes :
+	\begin{itemize}
+	\item la création d'un nouveau projet de QR Code unique ou d'une famille de QR Codes.
+	\item le chargement ou l'importation d'un projet de QR Code unique ou d'une famille de QR Codes.
+	\item l'exportation ou la sauvegarde d'un projet de QR Code unique ou d'une famille de QR Codes.
+	\item l'aperçu de l'image d'une famille de QR Codes.
+		\begin{figure}[!h]
+			\centering
+		   	\includegraphics[scale=0.25]{img/image-famille.png}
+		   	\caption{Interface de création d'une famille de qrcodes}
+		\end{figure}
+	
+	L'image de la famille contient le nom de la famille de QR Codes, le nombre de QR Codes existant dans cette famille et la date de création du projet.\\
+	Les boutons Sauvegarder et Fermer permettent respectivement de sauvegarder le projet, de fermer l'aperçu.\\
+	À noter que les quatres QR Codes figurant sur l'image de la famille, ne sont que des images statiques; elles ne représentent pas des QR Codes en tant que tels.
+	
+	\item la fermeture d'un projet.
+	\end{itemize}
+	
+\item Bloc 2 : il contient un formulaire qui regroupe des champs (musique ou texte). À coté de chaque champ se trouvent des boutons pour créer, supprimer et lire le contenu du champ par synthèse vocale.\\
+À la fin du formulaire, de la gauche vers la droite, se trouvent :
+	\begin{itemize}
+	\item une case à cocher pour afficher ou masquer les options du texte en braille à savoir le texte et la couleur du texte grâce à une palette de couleur
+	\item une palette de couleur pour la couleur du QR Code.
+	\end{itemize}
+Dans le cas d'un projet de famille de QR Codes, on note l'apparition :
+	\begin{itemize}
+	\item d'une zone de texte pour le nom de la famille, en haut du formulaire.
+	\item d'une liste d'onglets, chacun faisant référence à un formulaire. À coté de chaque onglet, figurent deux boutons pour ajouter un onglet ou supprimer celui actif; chaque onglet représente un QR Code.
+	\end{itemize}
+	
+\item Bloc 3 : partant du haut vers le bas, il contient : 
+	\begin{itemize}
+	\item un bouton pour prévisualiser un QR Code à partir des informations du formulaire (celui de l'onglet actif dans le cas d'un projet de famille de QR Codes).
+	\item un bouton lire pour lire par synthèse vocale tous les champs du formulaire (le formulaire de l'onglet actif dans le cas d'un projet de famille de QR codes.
+	\end{itemize}
+Dans le cas d'un projet de famille de QR Code, on note l'apparition :
+	\begin{itemize}
+	\item d'une zone de texte pour le nom de la famille, en haut du formulaire.
+	\item d'une liste d'onglets, chacun faisant référence à un formulaire. À coté de chaque onglet, figurent deux boutons pour ajouter un onglet ou supprimer celui actif; chaque onglet représente un QR Code.
+		\item d'une image représentant le QR Code généré après la prévisualisation; éventuellement il y a au milieu de celle-ci un code en braille représentant le texte en braille.
+	\end{itemize}
+\end{enumerate}
