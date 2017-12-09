@@ -1,5 +1,5 @@
 \par
-Nous avons choisi au début du projet d'utiliser une structure XML pour représenter les données stockées dans le QR Code (REF REPR. DONNEES). Ce choix était motivé principalement par la facilité de gestion du XML en Javascript.
+Nous avons choisi au début du projet d'utiliser une structure XML pour représenter les données stockées dans le QR Code (voir \ref{representationDonnees}). Ce choix était motivé principalement par la facilité de gestion du XML en Javascript.
 \par
 Le XML a toutefois posé des problèmes au niveau de la concision des QR Codes générés. Nous avons tenté de remplacer la structure XML par une structure JSON plus concise lors de la première semaine de décembre, mais nous avions déjà trop de dépendances au XML. Nous avons alors tenté d'utiliser des librairies convertissant le XML déjà généré en JSON avant l'insertion des données dans le QR Code, mais nous n'en avons trouvé aucune suffisamment fiable (les attributs des noeuds XML étaient très mal gérés, et les noeuds de même nom étaient fusionnés sans respecter leur ordre).\\
 \par
@@ -7,7 +7,7 @@ Nous nous sommes donc orientés vers une solution de compression pour compenser 
 \par
 Nous avons rendu cette solution la plus évolutive possible, en ajoutant deux caractères prédéfinis au début de la chaîne compressée pour notifier qu'elle a été compressée, et donc laisser la possibilité à l'application mobile avec un test simple d'interpréter les QR Codes n'ayant pas subi la compression. Le premier caractère inséré est le premier caractère de l'alphabet cyrillique, et le second est le chiffre 1, indiquant qu'il s'agit de la première version de cette méthode de compression. D'autres versions de la compression pourront ainsi être proposées dans le futur si la structure XML de représentation des données est modifiée.\\
 \par
-Le principal inconvénient de cette solution est qu'elle ne compresse que la représentation des données et pas les données elles-mêmes. Un QR Code contenant beaucoup de texte sera toujours volumineux. Elle est toutefois très efficace pour les QR Codes contenant peu de données comme le témoigne l'exemple ci-dessous.
+Le principal inconvénient de cette solution est qu'elle ne compresse que la représentation des données et pas les données elles-mêmes. Un QR Code contenant beaucoup de texte sera toujours volumineux. Elle est toutefois très efficace pour les QR Codes contenant peu de données comme en témoigne l'exemple ci-dessous.
 
 \begin{figure}[!h]
 \begin{adjustbox}{minipage=\textwidth,bgcolor={RGB}{240 240 240}}
@@ -15,24 +15,23 @@ Le principal inconvénient de cette solution est qu'elle ne compresse que la rep
 \lstset{language=XML}
 
 \begin{lstlisting}
-
 <donneesutilisateur xmlns="http://www.w3.org/1999/xhtml" type="atomique">
   <contenu>
     <texte>Le lion appartient a la famille des felides</texte>
   </contenu>
   <famille nom="animaux" ordre="3"></famille>
 </donneesutilisateur>
- 
+
 \end{lstlisting}
 
 \end{adjustbox}
-\caption{Données stockées dans un QR Code simple sans compression}
+\caption{Données stockées dans un QR Code simple sans compression (214 octets)}
 
 \end{figure}\textbf{}
 
 
-\begin{figure}[]
+\begin{figure}[!h]
 	\centering
    \includegraphics[scale=0.6]{img/compression.png}
-   \caption{Données stockées dans un QR Code simple avec compression}
+   \caption{Données stockées dans un QR Code simple avec compression (63 octets, soit un gain de 70\%)}
 \end{figure}
