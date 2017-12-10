@@ -1,4 +1,4 @@
- \documentclass{report}
+\documentclass{report}
 \usepackage[utf8]{inputenc}    
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
@@ -8,10 +8,12 @@
 \usepackage{appendix}
 \usepackage{adjustbox}
 \usepackage{titling}
+\usepackage{float}
+
 
 %Géométrie des pages
 \usepackage{geometry}
-\geometry{hmargin=2.5cm,vmargin=2.5cm}
+\geometry{hmargin=1.9cm,vmargin=1.9cm}
 
 %Définition des couleurs pour le code xml
 \definecolor{colorxmlnode}{rgb}{0.2, 0.2, 0.2} 
@@ -77,65 +79,70 @@
 \chapter{Introduction}
 
 	\section{Contexte}
-		\input{Introduction/contexte.tex}
+		\input{Introduction/contexte.tex} \label{contexte}
 	
 	\section{Objectifs}
-		\input{Introduction/cahierDesCharges.tex}
+		\input{Introduction/cahierDesCharges.tex} \label{objectifs}
 
 
 		
-\chapter{Modélisation}
+\chapter{Conception}
 
 	\section{Types de QRCodes}
-		\input{Modelisation/typesQRCodes.tex}
+		\input{Modelisation/typesQRCodes.tex} \label{typesQR}
+		
+	\newpage
 		
 	\section{Représentation des données}
-		\input{Modelisation/representationDonnees.tex}
+		\input{Modelisation/representationDonnees.tex} \label{representationDonnees}
+		
+	\section{Stockage des données}
+		\input{Modelisation/stockage.tex} \label{stockage}
 		
 
 \chapter{Application de bureau}
 
-	\section{Conception}
+	\section{Conception logicielle}
 		
 		\subsection{Langages}
-			\input{ApplicationBureau/Conception/langages.tex}
+			\input{ApplicationBureau/Conception/langages.tex} \label{langages}
 			
 		\subsection{Architecture}		
-			\input{ApplicationBureau/Conception/architecture.tex}
-			
+			\input{ApplicationBureau/Conception/architecture.tex} \label{architecture}
+				
 		
 	\section{Implémentation}
 		
 		\subsection{Interface graphique}
-			\input{ApplicationBureau/Implementation/interfaceGraphique.tex}
+			\input{ApplicationBureau/Implementation/interfaceGraphique.tex} \label{interfaceGraphique}
 			
 		\subsection{Prévisualisation}
-			\input{ApplicationBureau/Implementation/previsualisation.tex}
+			\input{ApplicationBureau/Implementation/previsualisation.tex} \label{previsualisation}
 			
 		\subsection{Génération de QR Codes}
-			\input{ApplicationBureau/Implementation/generationQRCodes.tex}
+			\input{ApplicationBureau/Implementation/generationQRCodes.tex} \label{generation}
 			
 		\subsection{Gestion des métadonnées}
-			\input{ApplicationBureau/Implementation/gestionMetadonnees.tex}
+			\input{ApplicationBureau/Implementation/gestionMetadonnees.tex} \label{metadonnees}
 			
 		\subsection{Chargement de QR Codes}
-			\input{ApplicationBureau/Implementation/chargementQRCodes.tex}
+			\input{ApplicationBureau/Implementation/chargementQRCodes.tex} \label{chargement}
 			
 		\subsection{Compression}
-			\input{ApplicationBureau/Implementation/compression.tex}
+			\input{ApplicationBureau/Implementation/compression.tex} \label{compression}
 			
 		\subsection{Lecture des fichiers du drive}
-			\input{ApplicationBureau/Implementation/lectureDrive.tex}
+			\input{ApplicationBureau/Implementation/lectureDrive.tex} \label{lectureDrive}
 			
 		\subsection{Limite de la taille des QR Codes}
-			\input{ApplicationBureau/Implementation/limiteTaille.tex}
+			\input{ApplicationBureau/Implementation/limiteTaille.tex} \label{limiteTaille}
 
 \chapter{Application mobile}
 
 	\section{Application existante}
 		\input{ApplicationAndroid/appliExistante.tex}
 		
-	\section{Connexion à Google Drive}
+	\section{Connexion à Google Drive et gestion des droits}
 		\input{ApplicationAndroid/telechargementDrive.tex}
 
 	\section{Adaptation aux nouveaux QR Codes}
