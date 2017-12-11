@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.29)  9 DEC 2017 22:08
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  9 DEC 2017 19:46
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.29)  12 DEC 2017 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,116 +524,241 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box32
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count109
+\calc@Bcount=\count110
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count111
+\calc@Cskip=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count109
-\Gm@cntv=\count110
-\c@Gm@tempcnt=\count111
-\Gm@bindingoffset=\dimen124
-\Gm@wd@mp=\dimen125
-\Gm@odd@mp=\dimen126
-\Gm@even@mp=\dimen127
-\Gm@layoutwidth=\dimen128
-\Gm@layoutheight=\dimen129
-\Gm@layouthoffset=\dimen130
-\Gm@layoutvoffset=\dimen131
-\Gm@dimlist=\toks24
-) (./rapport.aux)
-\openout1 = `rapport.aux'.
+)))
+\AM@pagewidth=\dimen126
+\AM@pageheight=\dimen127
 
-<<<<<<< Updated upstream
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Info: Redefining \degres on input line 71.
-LaTeX Info: Redefining \dots on input line 71.
-LaTeX Info: Redefining \up on input line 71.
-=======
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Info: Redefining \degres on input line 73.
-LaTeX Info: Redefining \dots on input line 73.
-LaTeX Info: Redefining \up on input line 73.
->>>>>>> Stashed changes
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen132
-\scratchbox=\box33
-\nofMPsegments=\count113
-\nofMParguments=\count114
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen133
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
-\everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
+\AM@pagebox=\box33
+\AM@toc@title=\toks24
+\c@AM@survey=\count112
+\AM@templatesizebox=\box34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count113
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count114
+\c@subtable=\count115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count118
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count119
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count120
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip55
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count126
+\Gm@cntv=\count127
+\c@Gm@tempcnt=\count128
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks25
+) (./rapport.aux)
+\openout1 = `rapport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Info: Redefining \degres on input line 66.
+LaTeX Info: Redefining \dots on input line 66.
+LaTeX Info: Redefining \up on input line 66.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen147
+\scratchbox=\box35
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen148
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -647,7 +768,38 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count118
+\c@lstlisting=\count135
+\AtBeginShipoutBox=\box36
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 66.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count136
+)
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
+
+(./rapport.out) (./rapport.out)
+\@outlinefile=\write3
+\openout3 = `rapport.out'.
+
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -657,15 +809,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* h-part:(L,W,R)=(54.06006pt, 506.17488pt, 54.06006pt)
+* v-part:(T,H,B)=(54.06006pt, 686.84987pt, 54.06006pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=472.03123pt
-* \textheight=652.70622pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-38.1381pt
+* \textwidth=506.17488pt
+* \textheight=686.84987pt
+* \oddsidemargin=-18.20993pt
+* \evensidemargin=-18.20993pt
+* \topmargin=-55.20993pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -683,65 +835,54 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/qr.jpeg, id=1, 451.6875pt x 451.6875pt>
+<img/qr.jpeg, id=124, 451.6875pt x 451.6875pt>
 File: img/qr.jpeg Graphic file (type jpg)
  <use img/qr.jpeg>
-<<<<<<< Updated upstream
-Package pdftex.def Info: img/qr.jpeg used on input line 73.
-(pdftex.def)             Requested size: 142.26163pt x 142.26163pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 73.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 73.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 73.
-=======
-Package pdftex.def Info: img/qr.jpeg used on input line 75.
-(pdftex.def)             Requested size: 142.26163pt x 142.26163pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
->>>>>>> Stashed changes
+Package pdftex.def Info: img/qr.jpeg used on input line 78.
+(pdftex.def)             Requested size: 130.98601pt x 130.98601pt.
+
+<img/logo.png, id=125, 616.3025pt x 602.25pt>
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 110.
+(pdftex.def)             Requested size: 61.63385pt x 60.22852pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/qr.jpeg>] (./rapport
-.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/qr.jpeg> <./img/logo
+.png>]
+(./rapport.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
 )
-\tf@toc=\write3
-\openout3 = `rapport.toc'.
+\tf@toc=\write4
+\openout4 = `rapport.toc'.
 
- [1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.119 \chapter
+              {Introduction} [1
 
 ]
 Chapitre 1.
 (./Introduction/contexte.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-<<<<<<< Updated upstream
-=======
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 ) (./Introduction/cahierDesCharges.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
->>>>>>> Stashed changes
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
-<<<<<<< Updated upstream
  []
-=======
+
 ) [2
 
 ]
@@ -758,290 +899,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
->>>>>>> Stashed changes
-
-) (./Introduction/cahierDesCharges.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-<img/schema_representation_donnees.png, id=27, 1433.355pt x 691.58376pt>
-File: img/schema_representation_donnees.png Graphic file (type png)
-
-<<<<<<< Updated upstream
-]
-Chapitre 2.
-(./Modelisation/typesQRCodes.tex
-
-LaTeX Warning: Reference `objectifs' on page 3 undefined on input line 2.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-) (./Modelisation/representationDonnees.tex
-
-LaTeX Warning: Reference `typesQR' on page 3 undefined on input line 2.
-
-
-LaTeX Warning: Reference `architecture' on page 3 undefined on input line 2.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[3
-
-] <img/schema_representation_donnees.png, id=28, 1433.355pt x 691.58376pt>
+<img/schema_representation_donnees.png, id=196, 1433.355pt x 691.58376pt>
 File: img/schema_representation_donnees.png Graphic file (type png)
 
 <use img/schema_representation_donnees.png>
 Package pdftex.def Info: img/schema_representation_donnees.png used on input li
 ne 17.
 (pdftex.def)             Requested size: 473.00862pt x 228.22334pt.
-
-=======
-<use img/schema_representation_donnees.png>
-Package pdftex.def Info: img/schema_representation_donnees.png used on input li
-ne 17.
-(pdftex.def)             Requested size: 473.00862pt x 228.22334pt.
-
->>>>>>> Stashed changes
-Overfull \hbox (0.97739pt too wide) in paragraph at lines 17--18
- [][] 
- []
-
-[4 <./img/schema_representation_donnees.png>]
-<<<<<<< Updated upstream
-
-LaTeX Warning: Reference `compression' on page 5 undefined on input line 23.
-
-
-=======
->>>>>>> Stashed changes
-Overfull \hbox (10.99226pt too wide) in paragraph at lines 25--26
-[]\T1/cmr/m/n/10 Le type de QR Code (ato-mique ou en-semble) est in-di-qué par 
-un at-tri-but dans le noeud []<[]>[].
- []
-
-<<<<<<< Updated upstream
-
-LaTeX Warning: Reference `typesQR' on page 5 undefined on input line 27.
-
+ [4 <./img/schema_representation_donnees.png>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) [5]
-Chapitre 3.
-(./ApplicationBureau/Conception/langages.tex
-
-LaTeX Warning: Reference `stockage' on page 6 undefined on input line 4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-) (./ApplicationBureau/Conception/architecture.tex
-<img/facade.png, id=38, 1683.28876pt x 350.30875pt>
-File: img/facade.png Graphic file (type png)
- <use img/facade.png>
-Package pdftex.def Info: img/facade.png used on input line 6.
-(pdftex.def)             Requested size: 420.82117pt x 87.57697pt.
-
-
-LaTeX Warning: Reference `typesQR' on page 6 undefined on input line 11.
-
-[6
-
- <./img/facade.png>] <img/modeleUML.png, id=45, 838.13126pt x 670.505pt>
-File: img/modeleUML.png Graphic file (type png)
-
-<use img/modeleUML.png>
-Package pdftex.def Info: img/modeleUML.png used on input line 15.
-(pdftex.def)             Requested size: 335.24657pt x 268.19725pt.
-
-
-LaTeX Warning: Reference `generation' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Reference `chargement' on page 7 undefined on input line 20.
-
-<img/controllerUML.png, id=46, 782.925pt x 430.60875pt>
-File: img/controllerUML.png Graphic file (type png)
-
-<use img/controllerUML.png>
-Package pdftex.def Info: img/controllerUML.png used on input line 25.
-(pdftex.def)             Requested size: 313.16446pt x 172.24043pt.
-
-
-LaTeX Warning: Reference `interfaceGraphique' on page 7 undefined on input line
- 30.
-
-) (./ApplicationBureau/Implementation/interfaceGraphique.tex
-<img/interface.png, id=47, 1309.89375pt x 737.75626pt>
-File: img/interface.png Graphic file (type png)
- <use img/interface.png>
-Package pdftex.def Info: img/interface.png used on input line 6.
-(pdftex.def)             Requested size: 327.47264pt x 184.43861pt.
-
-[7 <./img/modeleUML.png> <./img/controllerUML.png>]
-<img/image-famille.png, id=53, 1355.0625pt x 798.985pt>
-File: img/image-famille.png Graphic file (type png)
-
-<use img/image-famille.png>
-Package pdftex.def Info: img/image-famille.png used on input line 21.
-(pdftex.def)             Requested size: 338.7648pt x 199.74576pt.
- [8 <./img/interface.png> <./img/image-famille.png>]) (./ApplicationBureau/Impl
-ementation/previsualisation.tex)
-(./ApplicationBureau/Implementation/generationQRCodes.tex
-
-LaTeX Warning: Reference `objectifs' on page 9 undefined on input line 2.
-
-
-LaTeX Warning: Reference `typesQR' on page 9 undefined on input line 2.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-<img/qrsimple.jpeg, id=57, 451.6875pt x 451.6875pt>
-File: img/qrsimple.jpeg Graphic file (type jpg)
- <use img/qrsimple.jpeg>
-Package pdftex.def Info: img/qrsimple.jpeg used on input line 6.
-(pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `architecture' on page 9 undefined on input line 11.
-
-
-LaTeX Warning: Reference `typesQR' on page 9 undefined on input line 11.
-
-
-LaTeX Warning: Reference `chargement' on page 9 undefined on input line 11.
-
-<img/animaux.jpeg, id=58, 501.875pt x 501.875pt>
-File: img/animaux.jpeg Graphic file (type jpg)
- <use img/animaux.jpeg>
-Package pdftex.def Info: img/animaux.jpeg used on input line 15.
-(pdftex.def)             Requested size: 100.37321pt x 100.37321pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./ApplicationBureau/Implementation/gestionMetadonnees.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-[9]) (./ApplicationBureau/Implementation/chargementQRCodes.tex
-
-LaTeX Warning: Reference `representationDonnees' on page 10 undefined on input 
-line 2.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-LaTeX Warning: Reference `generation' on page 10 undefined on input line 4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-[10 <./img/qrsimple.jpeg> <./img/animaux.jpeg>])
-(./ApplicationBureau/Implementation/compression.tex
-
-LaTeX Warning: Reference `representationDonnees' on page 11 undefined on input 
-line 2.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-=======
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
 (./Modelisation/stockage.tex) [5]
 Chapitre 3.
-(./ApplicationBureau/Conception/langages.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-) (./ApplicationBureau/Conception/architecture.tex
-<img/facade.png, id=38, 1683.28876pt x 350.30875pt>
+(./ApplicationBureau/Conception/langages.tex)
+(./ApplicationBureau/Conception/architecture.tex
+<img/facade.png, id=238, 1683.28876pt x 350.30875pt>
 File: img/facade.png Graphic file (type png)
  <use img/facade.png>
 Package pdftex.def Info: img/facade.png used on input line 6.
 (pdftex.def)             Requested size: 420.82117pt x 87.57697pt.
 
-[6
-
- <./img/facade.png>] <img/modeleUML.png, id=45, 838.13126pt x 670.505pt>
+<img/modeleUML.png, id=240, 838.13126pt x 670.505pt>
 File: img/modeleUML.png Graphic file (type png)
-
-<use img/modeleUML.png>
+ <use img/modeleUML.png>
 Package pdftex.def Info: img/modeleUML.png used on input line 15.
 (pdftex.def)             Requested size: 335.24657pt x 268.19725pt.
 
-<img/controllerUML.png, id=46, 782.925pt x 430.60875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6
+
+ <./img/facade.png>]
+<img/controllerUML.png, id=252, 782.925pt x 430.60875pt>
 File: img/controllerUML.png Graphic file (type png)
 
 <use img/controllerUML.png>
 Package pdftex.def Info: img/controllerUML.png used on input line 25.
 (pdftex.def)             Requested size: 313.16446pt x 172.24043pt.
-)
-(./ApplicationBureau/Implementation/interfaceGraphique.tex)
+) [7 <./img/modeleUML.png> <./img/controllerUML.png>] (./ApplicationBureau/Impl
+ementation/interfaceGraphique.tex
+<img/interface.png, id=263, 1309.89375pt x 737.75626pt>
+File: img/interface.png Graphic file (type png)
+
+<use img/interface.png>
+Package pdftex.def Info: img/interface.png used on input line 6.
+(pdftex.def)             Requested size: 327.47264pt x 184.43861pt.
+
+<img/image-famille.png, id=264, 1355.0625pt x 798.985pt>
+File: img/image-famille.png Graphic file (type png)
+
+<use img/image-famille.png>
+Package pdftex.def Info: img/image-famille.png used on input line 22.
+(pdftex.def)             Requested size: 338.7648pt x 199.74576pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+[8 <./img/interface.png> <./img/image-famille.png>])
 (./ApplicationBureau/Implementation/previsualisation.tex)
 (./ApplicationBureau/Implementation/generationQRCodes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[7 <./img/modeleUML.png> <./img/controllerUML.png>]
-<img/qrsimple.jpeg, id=52, 451.6875pt x 451.6875pt>
+<img/qrsimple.jpeg, id=282, 451.6875pt x 451.6875pt>
 File: img/qrsimple.jpeg Graphic file (type jpg)
  <use img/qrsimple.jpeg>
-Package pdftex.def Info: img/qrsimple.jpeg used on input line 6.
-(pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
+Package pdftex.def Info: img/qrsimple.jpeg used on input line 13.
+(pdftex.def)             Requested size: 101.23341pt x 101.23244pt.
 
-<img/animaux.jpeg, id=53, 501.875pt x 501.875pt>
+<img/animaux.jpeg, id=283, 501.875pt x 501.875pt>
 File: img/animaux.jpeg Graphic file (type jpg)
  <use img/animaux.jpeg>
-Package pdftex.def Info: img/animaux.jpeg used on input line 15.
-(pdftex.def)             Requested size: 100.37321pt x 100.37321pt.
+Package pdftex.def Info: img/animaux.jpeg used on input line 19.
+(pdftex.def)             Requested size: 101.23341pt x 101.23091pt.
 )
+[9 <./img/qrsimple.jpeg> <./img/animaux.jpeg>]
 (./ApplicationBureau/Implementation/gestionMetadonnees.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[8 <./img/qrsimple.jpeg> <./img/animaux.jpeg>])
-(./ApplicationBureau/Implementation/chargementQRCodes.tex
+) (./ApplicationBureau/Implementation/chargementQRCodes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -1051,7 +999,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) (./ApplicationBureau/Implementation/compression.tex
+) [10] (./ApplicationBureau/Implementation/compression.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -1061,45 +1009,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[9]
->>>>>>> Stashed changes
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<<<<<<< Updated upstream
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<img/compression.png, id=65, 621.32124pt x 59.22125pt>
-=======
-<img/compression.png, id=60, 621.32124pt x 59.22125pt>
->>>>>>> Stashed changes
+<img/compression.png, id=299, 621.32124pt x 59.22125pt>
 File: img/compression.png Graphic file (type png)
 
 <use img/compression.png>
 Package pdftex.def Info: img/compression.png used on input line 35.
-(pdftex.def)             Requested size: 372.79562pt x 35.533pt.
-<<<<<<< Updated upstream
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./ApplicationBureau/Implementation/lectureDrive.tex) [11]
-(./ApplicationBureau/Implementation/limiteTaille.tex) [12 <./img/compression.pn
-g>]
+(pdftex.def)             Requested size: 248.5241pt x 23.68806pt.
+) [11 <./img/compression.png>]
+(./ApplicationBureau/Implementation/lectureDrive.tex)
+(./ApplicationBureau/Implementation/limiteTaille.tex) [12]
 Chapitre 4.
-(./ApplicationAndroid/appliExistante.tex)
-(./ApplicationAndroid/telechargementDrive.tex)
-(./ApplicationAndroid/adaptation.tex) [13
-=======
-) (./ApplicationBureau/Implementation/lectureDrive.tex) (./ApplicationBureau/Im
-plementation/limiteTaille.tex) [10 <./img/compression.png>]
-Chapitre 4.
-(./ApplicationAndroid/appliExistante.tex)
-(./ApplicationAndroid/telechargementDrive.tex)
-(./ApplicationAndroid/adaptation.tex) [11
->>>>>>> Stashed changes
+(./ApplicationAndroid/appliExistante.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+) (./ApplicationAndroid/telechargementDrive.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+) (./ApplicationAndroid/adaptation.tex) [13
 
 ]
 Chapitre 5.
@@ -1113,85 +1048,172 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<<<<<<< Updated upstream
 ) [14
 
 ] [15
 
-] (./Annexes/organisation.tex) (./Annexes/manuel.tex) [16]
-(./rapport.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 6764 strings out of 493029
- 93038 string characters out of 6136234
- 200716 words of memory out of 5000000
- 10104 multiletter control sequences out of 15000+600000
- 18741 words of font info for 40 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,8n,67p,1379b,1326s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sftt1000.pfb>
-Output written on rapport.pdf (17 pages, 1609972 bytes).
-PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
-=======
-) [12
-
-] [13
-
 ] (./Annexes/organisation.tex
-<img/taches.png, id=75, 1659.19875pt x 2347.77126pt>
+<img/taches.png, id=344, 1430.34375pt x 1836.8625pt>
 File: img/taches.png Graphic file (type png)
  <use img/taches.png>
-Package pdftex.def Info: img/taches.png used on input line 5.
-(pdftex.def)             Requested size: 414.79868pt x 586.94139pt.
+Package pdftex.def Info: img/taches.png used on input line 6.
+(pdftex.def)             Requested size: 400.49352pt x 514.318pt.
 
-<img/calendrier.png, id=76, 1659.19875pt x 2347.77126pt>
+[16 <./img/taches.png>] <img/calendrier.png, id=351, 1614.03pt x 1761.58125pt>
 File: img/calendrier.png Graphic file (type png)
 
 <use img/calendrier.png>
-Package pdftex.def Info: img/calendrier.png used on input line 13.
-(pdftex.def)             Requested size: 414.79868pt x 586.94139pt.
- [14 <./img/taches.png>]) (./Annexes/manuel.tex)
-[15 <./img/calendrier.png>] [16] (./rapport.aux) ) 
+Package pdftex.def Info: img/calendrier.png used on input line 17.
+(pdftex.def)             Requested size: 451.92532pt x 493.2394pt.
+) <img/manuel.pdf, id=352, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf>
+Package pdftex.def Info: img/manuel.pdf used on input line 212.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf>
+Package pdftex.def Info: img/manuel.pdf used on input line 212.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<img/manuel.pdf, id=355, page=1, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 1>
+Package pdftex.def Info: img/manuel.pdf, page1 used on input line 212.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 1>
+Package pdftex.def Info: img/manuel.pdf, page1 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [17 <./img/calendrier.png>]
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 1>
+Package pdftex.def Info: img/manuel.pdf, page1 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 1>
+Package pdftex.def Info: img/manuel.pdf, page1 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 1>
+Package pdftex.def Info: img/manuel.pdf, page1 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [18 <./img/manuel.pdf>]
+<img/manuel.pdf, id=381, page=2, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 2>
+Package pdftex.def Info: img/manuel.pdf, page2 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 2>
+Package pdftex.def Info: img/manuel.pdf, page2 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 2>
+Package pdftex.def Info: img/manuel.pdf, page2 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [19 <./img/manuel.pdf>]
+<img/manuel.pdf, id=401, page=3, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 3>
+Package pdftex.def Info: img/manuel.pdf, page3 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 3>
+Package pdftex.def Info: img/manuel.pdf, page3 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 3>
+Package pdftex.def Info: img/manuel.pdf, page3 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [20 <./img/manuel.pdf>]
+<img/manuel.pdf, id=413, page=4, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 4>
+Package pdftex.def Info: img/manuel.pdf, page4 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 4>
+Package pdftex.def Info: img/manuel.pdf, page4 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 4>
+Package pdftex.def Info: img/manuel.pdf, page4 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [21 <./img/manuel.pdf>]
+<img/manuel.pdf, id=420, page=5, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 5>
+Package pdftex.def Info: img/manuel.pdf, page5 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 5>
+Package pdftex.def Info: img/manuel.pdf, page5 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 5>
+Package pdftex.def Info: img/manuel.pdf, page5 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [22 <./img/manuel.pdf>]
+<img/manuel.pdf, id=428, page=6, 597.50829pt x 845.0471pt>
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 6>
+Package pdftex.def Info: img/manuel.pdf, page6 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+ <use img/manuel.pdf, page 6>
+Package pdftex.def Info: img/manuel.pdf, page6 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: img/manuel.pdf Graphic file (type pdf)
+
+<use img/manuel.pdf, page 6>
+Package pdftex.def Info: img/manuel.pdf, page6 used on input line 212.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [23 <./img/manuel.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+ (./rapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package rerunfilecheck Info: File `rapport.out' has not changed.
+(rerunfilecheck)             Checksum: 0B53A8FB7CCD5D851B686B9C776F0B2D;2019.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+ ) 
 Here is how much of TeX's memory you used:
- 6822 strings out of 493029
- 93795 string characters out of 6136234
- 202272 words of memory out of 5000000
- 10155 multiletter control sequences out of 15000+600000
- 18741 words of font info for 40 fonts, out of 8000000 for 9000
+ 12178 strings out of 493029
+ 179370 string characters out of 6136234
+ 313472 words of memory out of 5000000
+ 15352 multiletter control sequences out of 15000+600000
+ 17456 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,67p,1399b,1330s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/d
-vips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfb
-x1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
-2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0
-800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti10
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on rapport.pdf (17 pages, 1100854 bytes).
+ 53i,18n,92p,1399b,1366s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sftt1000.pfb>
+Output written on rapport.pdf (24 pages, 2888800 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
->>>>>>> Stashed changes
- 83 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 500 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
