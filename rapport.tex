@@ -12,8 +12,15 @@
 \usepackage{pdfpages}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[hidelinks]{hyperref}
 
-
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue
+}
 
 %Géométrie des pages
 \usepackage{geometry}
@@ -54,47 +61,29 @@
 \newcommand\noeud[1]{\textcolor{colorxmlnode}{<\mbox{#1}>}}
 
 
-\setlength{\droptitle}{-10em}   % This is your set screw
-
-
-\pretitle{%
-  \begin{center}
-  \LARGE
-  \includegraphics[width=5cm,height=5cm]{img/qr.jpeg}\\[30px]
-}
-\posttitle{\end{center}}
-
-
-\title{% 
-		Développement d'un couple d'applications bureau et mobile\\ \large
-		Génération et lecture de QR Codes pour l'institut Montéclair}
-\author{David \bsc{Dembele}\\ Alassane \bsc{Diop}\\
-		Jules \bsc{Leguy}\\ Rahmatouwalet \bsc{Mohamedoun}}
-\date{Décembre 2017}
-
 
 
 \begin{document}
 
 \begin{titlepage}
 	\centering
-	\begin{flushleft}
-		\textsc{Master I Informatique} \hspace{10.5cm} \textsc{Décembre 2017}
+	
+    \vspace*{1.2 cm}
+    
+   	\textsc{\LARGE Master i informatique\\Concrétisation disciplinaire\\[0.3cm]\large Décembre 2017}
 
-	\end{flushleft}
-	
-	\begin{flushright}
-	\end{flushright}		
-	
-    \vspace*{4 cm}
-    \includegraphics[scale = 0.25]{img/qr.jpeg}\\[1 cm]
+	\vspace{2.2cm}
+    
+    
+    \includegraphics[scale = 0.29]{img/qr.jpeg}\\[0.5 cm]
 	\rule{\linewidth }{0.2 mm} \\[0.15 cm]
     {\LARGE \textbf{Développement d'un couple d'applications bureau et mobile}\\[0.2cm] \large
 		\textbf{Génération et lecture de QR Codes pour l'institut Montéclair}}\\
 	\rule{\linewidth}{0.2 mm}
-       \vspace*{0.5 cm}
+       \vspace*{0.1 cm}
 	
 	\begin{center}
+	\vspace{0.3cm}
 	
 	\emph{Auteurs}\\
 	\vspace{0.1cm}
@@ -117,7 +106,7 @@
 	\end{center}		
 	
 		
-	\vspace{2cm}
+	\vspace{1.5cm}
 	\hspace{15cm}\includegraphics[scale = 0.1]{img/logo.png}
 
     
@@ -196,7 +185,7 @@
 	\section{Application existante}
 		\input{ApplicationAndroid/appliExistante.tex}
 		
-	\section{Connexion à Google Drive et gestion des droits}
+	\section{Téléchargement de fichiers}
 		\input{ApplicationAndroid/telechargementDrive.tex}
 
 	\section{Adaptation aux nouveaux QR Codes}
@@ -214,10 +203,10 @@
 
 \section{Organisation}
 
-	\input{Annexes/organisation.tex}
+	\input{Annexes/organisation.tex} \label{organisation}
 				
 
-\section{Manuel utilisateur}
+\section{Manuel utilisateur} \label{manuel}
 \par En complément du rapport, nous proposons un manuel destiné aux utilisateurs de l'application de bureau. Ce manuel décrit les différentes interfaces et boutons permettant d'utiliser l'application.
 
 	\includepdf[pages=-]{img/manuel.pdf}

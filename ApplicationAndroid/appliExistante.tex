@@ -1,0 +1,13 @@
+
+\par
+Plusieurs fonctionnalités étaient déjà implémentées dans l'application mobile initiale (voir \ref{contexte}). Elle était notamment déjà capable de lire le contenu d'un QR Code via la synthèse vocale de l'API Google text-to-speech et d'interpréter des données structurées en JSON\footnote{JavaScript Object Notation (https://www.json.org)}. En outre, elle offrait déjà la possibilité de lire à la suite plusieurs QR Codes détectés simultanément.
+
+\par
+Notre intervention sur l'application a donc consisté à l'adapter aux nouveaux besoins.
+Nous avons ainsi modifié certaines parties du code de l’application, notamment ce qui concerne l'interprétation de la structure de données qui est maintenant représentée en XML (voir \ref{representationDonnees} et \ref{compression}).\\
+
+\par
+La lecture d’un QR Code se fait donc désormais de la manière suivante. Pour les QR Codes n'appartenant pas à une famille, seul le premier champ est lu (avec la synthèse vocale s'il s'agit d'un texte, ou joué s'il s'agit d'un fichier audio). Il faut effectuer un balayage de l'écran vers la gauche ou la droite pour lire les champs adjacents.
+\par
+Pour les QR Codes lus simultanément et appartenant à une famille, ils sont lus dans l'ordre spécifié par la famille, tout en permettant toujours le balayage de l'écran pour passer d'un champ à un autre, ou d'un QR Code de la famille à un autre.
+
