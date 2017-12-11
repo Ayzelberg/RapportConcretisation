@@ -9,6 +9,10 @@
 \usepackage{adjustbox}
 \usepackage{titling}
 \usepackage{float}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{subcaption}
+
 
 
 %Géométrie des pages
@@ -110,7 +114,7 @@
 		\subsection{Architecture}		
 			\input{ApplicationBureau/Conception/architecture.tex} \label{architecture}
 				
-		
+	\newpage
 	\section{Implémentation}
 		
 		\subsection{Interface graphique}
@@ -121,16 +125,19 @@
 			
 		\subsection{Génération de QR Codes}
 			\input{ApplicationBureau/Implementation/generationQRCodes.tex} \label{generation}
-			
+		
+		\newpage
 		\subsection{Gestion des métadonnées}
 			\input{ApplicationBureau/Implementation/gestionMetadonnees.tex} \label{metadonnees}
 			
 		\subsection{Chargement de QR Codes}
 			\input{ApplicationBureau/Implementation/chargementQRCodes.tex} \label{chargement}
 			
+		\newpage
 		\subsection{Compression}
 			\input{ApplicationBureau/Implementation/compression.tex} \label{compression}
-			
+		
+		\newpage
 		\subsection{Lecture des fichiers du drive}
 			\input{ApplicationBureau/Implementation/lectureDrive.tex} \label{lectureDrive}
 			
@@ -161,11 +168,12 @@
 \section{Organisation}
 
 	\input{Annexes/organisation.tex}
-		
-		
-\section{Manuel Utilisateur}
+				
 
-	\input{Annexes/manuel.tex} 
+\section{Manuel utilisateur}
+\par En complément du rapport, nous proposons un manuel destiné aux utilisateurs de l'application de bureau. Ce manuel décrit les différentes interfaces et boutons permettant d'utiliser l'application.
+
+	\includepdf[pages=-]{img/manuel.pdf}
 
 
 \end{document}
